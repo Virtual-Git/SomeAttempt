@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.IntoMated{
+    @apply text-5xl bg-gradient-to-br from-red-500 via-violet-500 to-cyan-500 text-transparent bg-clip-text;
+}
+
+.SpanQuestion{
+    @apply font-extrabold text-2xl italic text-white;
+}
+
+.UserInputStyle{
+    @apply text-gray-300 text-2xl font-bold whitespace-pre-line mb-20;
+}
